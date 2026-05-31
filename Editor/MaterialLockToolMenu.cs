@@ -8,8 +8,9 @@ using UnityEngine;
 
 public static class MaterialLockToolMenu
 {
-    const string MenuLock     = "🔒 Lock Material Properties";
-    const string MenuUnlock   = "🔓 UnLock Material Properties";
+    // Project ウィンドウの右クリック（コンテキスト）メニューに出すには "Assets/" プレフィックスが必須
+    const string MenuLock     = "Assets/🔒 Lock Material Properties";
+    const string MenuUnlock   = "Assets/🔓 UnLock Material Properties";
     const string MenuAutoLock = "Tools/Material Lock Tool/Auto Lock on Package Import";
 
     // ────────────────────────────────

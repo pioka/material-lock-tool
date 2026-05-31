@@ -1,7 +1,7 @@
 {
   "displayName" : "Material Lock Tool",
   "name" : "io.github.pioka.material-lock-tool",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "unity": "2022.3",
   "author": {
     "name": "pioka",

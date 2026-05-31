@@ -15,7 +15,7 @@ jobs:
   release:
     if: >-
       inputs.target == 'full'
-      && github.ref == 'refs/heads/main'
+      && github.ref == 'refs/heads/master'
 
     permissions:
       contents: write
@@ -35,7 +35,7 @@ jobs:
     if: >-
       !cancelled()
       && needs.release.result != 'failure'
-      && github.ref == 'refs/heads/main'
+      && github.ref == 'refs/heads/master'
 
     permissions:
       contents: read
